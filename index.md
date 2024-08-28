@@ -180,7 +180,8 @@ div.desc {
 <div class="navbar" style="padding-bottom: 50px">
   <a href="{{site.baseurl}}/">Home</a>
   <a href="{{site.baseurl}}/planning">Planning</a>
-
+  <a href="{{site.baseurl}}/outfitpicker">Outfit Picker</a>
+  <a href="{{site.baseurl}}/verify">Verify</a>
   <a href="{{site.baseurl}}/about">About</a>
 </div>
 <!-- <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6MXWK7edsydhiPEs07RDkO?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe> -->
