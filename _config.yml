@@ -5,7 +5,7 @@ github_username: AidanLau10
 github_repo: "aidan_2025" 
 baseurl: "/aidan_2025"
 future: true
-remote_theme: jekyll/minima
+remote_theme: jekyll/midnight
 minima:
   skin: dark
   social_links:
