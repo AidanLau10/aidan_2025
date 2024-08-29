@@ -173,16 +173,18 @@ div.desc {
     font-size: 16px;
     cursor: pointer;
 }
+
+
 </style>
 </head>
 <body>
 
-<div class="navbar" style="padding-bottom: 50px">
-  <a href="{{site.baseurl}}/">Home</a>
-  <a href="{{site.baseurl}}/planning">Planning</a>
-  <a href="{{site.baseurl}}/outfitpicker">Outfit Picker</a>
-  <a href="{{site.baseurl}}/verify">Verify</a>
-  <a href="{{site.baseurl}}/about">About</a>
+<div class="submenu" style="padding-bottom: 50px">
+  <a href="{{site.baseurl}}/" style="margin-right: 10px">Home</a>
+  <!-- <a href="{{site.baseurl}}/planning" style="margin-right: 10px">Planning</a> -->
+  <a href="{{site.baseurl}}/clothes/home" style="margin-right: 10px">Clothes</a>
+  <a href="{{site.baseurl}}/verify" style="margin-right: 10px">Verify</a>
+  <a href="{{site.baseurl}}/hacks" style="margin-right: 10px">Hacks</a>
 </div>
 <!-- <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6MXWK7edsydhiPEs07RDkO?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe> -->
 
