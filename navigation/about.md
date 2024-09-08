@@ -25,10 +25,14 @@ permalink: /about/
 <h3>Hong Kong Map</h3>
 <div id="map-hongkong"></div>
 
-### I'm a 2nd gen Asian-American 
-### My mom is from Taiwan and my dad is from Hong Kong
-### I used to travel to Taiwan and Hong Kong every summer as a kid to visit my family, eat yummy food, and visit historic spots.
+<div>
+<h3>I'm a 2nd gen Asian-American</h3>
+<h3>My mom is from Taiwan and my dad is from Hong Kong</h3>
+<h3>I used to travel to Taiwan and Hong Kong every summer as a kid to visit my family, eat yummy food, and visit historic spots.</h3>
+</div>
 
+<div><h3 id="factDisplay">Click the button to see a fun fact!</h3></div>
+<button id="generateBtn">Generate Fun Fact</button>
 
 <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 <script>
@@ -89,5 +93,21 @@ permalink: /about/
         });
 </script>
 
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const facts = [
+        "I can solve a Rubiks cube. My fastest time was 6 seconds",
+        "My favorite subject is math",
+        "I'm going to 2 concerts in September: Rocco and wave to earth",
+        "I can build keyboards.",
+    ];
 
+    const factDisplay = document.getElementById('factDisplay');
+    const generateBtn = document.getElementById('generateBtn');
 
+    generateBtn.addEventListener('click', function() {
+        const randomIndex = Math.floor(Math.random() * facts.length);
+        factDisplay.innerHTML = facts[randomIndex];
+    });
+});
+</script>

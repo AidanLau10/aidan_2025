@@ -5,9 +5,9 @@ description: Home Page
 hide: true
 ---
 
-<html>
+
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <style>
 * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
@@ -239,8 +239,7 @@ div.desc {
   <span class="dot" onclick="currentSlide(3)"></span> 
 </div>
 
-<div id="factDisplay">Click the button to see a fun fact!</div>
-<button id="generateBtn">Generate Fun Fact</button>
+
 <script>
 let slideIndex = 1;
 showSlides(slideIndex);
@@ -269,23 +268,7 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-document.addEventListener('DOMContentLoaded', function() {
-    const facts = [
-        "I can solve a Rubiks cube. My fastest time was 6 seconds",
-        "My favorite subject is math",
-        "I'm going to 2 concerts in September: Rocco and wave to earth",
-        "I can build keyboards.",
-    ];
 
-    const factDisplay = document.getElementById('factDisplay');
-    const generateBtn = document.getElementById('generateBtn');
-
-    generateBtn.addEventListener('click', function() {
-        const randomIndex = Math.floor(Math.random() * facts.length);
-        factDisplay.textContent = facts[randomIndex];
-    });
-});
 </script>
 
 </body>
-</html> 
