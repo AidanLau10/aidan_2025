@@ -4,17 +4,32 @@ title: About
 permalink: /about/
 ---
 
-# Background 
 
-## My name is Aidan
 
 <head>
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <style>
+        .map-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            gap: 20px; /* Space between the maps */
+            margin-bottom: 20px;
+        }
+
         #map-taiwan,
         #map-hongkong {
+            flex: 1; /* Ensures both maps take equal space */
             height: 400px;
-            width: 100%;
+            min-width: 300px; /* Ensures the maps do not become too small */
+            margin: 10px;
+        }
+
+        @media (max-width: 800px) {
+            .map-container {
+                flex-direction: column; /* Stacks maps vertically on smaller screens */
+                align-items: center;
+            }
         }
 
         body {
@@ -119,22 +134,37 @@ permalink: /about/
 
         .keyboard-item {
             text-align: center;
-            outline: 5px solid rgb(255, 127, 80); /* Coral outline around each image */
+            outline: 5px solid rgb(255, 127, 80); 
             padding: 10px;
         }
 
         .keyboard-item img {
-            width: 300px; /* Adjust the width as needed */
+            width: 300px; 
+        }
+        #gallery figure {
+            display: inline-block;
+            margin: 20px;
+            text-align: center;
+            outline: 5px solid rgb(255, 127, 80); 
+            padding: 10px;
         }
 
+        #gallery img {
+            width: 300px;
+            height: auto;
+        }
+
+        
     </style>
 </head>
 
-<h3>Taiwan Map</h3>
-<div id="map-taiwan"></div>
+<h1><img src="{{site.baseurl}}/images/about/fumu.png" height="60" alt="">Where My Parents are From</h1>
 
-<h3>Hong Kong Map</h3>
-<div id="map-hongkong"></div>
+<h3><img src="{{site.baseurl}}/images/about/taibei.png" height="60" alt="">Maps of Taiwan and Hong Kong</h3>
+<div class="map-container">
+    <div id="map-taiwan"></div>
+    <div id="map-hongkong"></div>
+</div>
 
 <div>
     <h3>I'm a 2nd gen Asian-American</h3>
@@ -143,6 +173,8 @@ permalink: /about/
         I used to travel to Taiwan and Hong Kong every summer as a kid to visit
         my family, eat yummy food, and visit historic spots.
     </h3>
+    <div><h3 id="factDisplay">Click the button to see a fun fact!</h3></div>
+<button id="generateBtn" style="color: #FF7F50">Generate Fun Fact</button>
 </div>
 <link
     href="https://fonts.googleapis.com/css?family=Cedarville+Cursive"
@@ -150,7 +182,7 @@ permalink: /about/
     type="text/css"
 />
 
-<h2>Keyboards I Made</h2>
+<h1 style="color: #FFFFFF"><img src="{{site.baseurl}}/images/about/jianpan.png" height="60" alt="">Keyboards I Made</h1>
 <div class="keyboard-container">
     <div class="keyboard-item">
         <img
@@ -178,7 +210,7 @@ permalink: /about/
         </ul></p>
     </div>
 </div>
-
+<h1 style="color: #FFFFFF"><img src="{{site.baseurl}}/images/about/zhaopian.png" height="60" alt="">Recent Pictures</h1>
 <div id="background">
     <div id="gallery">
         <figure class="pic1">
@@ -213,8 +245,7 @@ permalink: /about/
 
 </div>
 
-<div><h3 id="factDisplay">Click the button to see a fun fact!</h3></div>
-<button id="generateBtn">Generate Fun Fact</button>
+
 
 <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 <script>
@@ -282,6 +313,11 @@ permalink: /about/
             "My favorite subject is math",
             "I'm going to 2 concerts in September: Rocco and wave to earth",
             "I can build keyboards.",
+            "I love listening to music",
+            "I hit top 175 in Valorant NA",
+            "I have a ragdoll cat named Miko",
+            "I tore my ACL in 5th grade(not so fun)",
+            "I've played with TenZ and Shroud(name a famous Valorant player and I've played with them) "
         ];
 
         const factDisplay = document.getElementById('factDisplay');
@@ -290,6 +326,7 @@ permalink: /about/
         generateBtn.addEventListener('click', function() {
             const randomIndex = Math.floor(Math.random() * facts.length);
             factDisplay.innerHTML = facts[randomIndex];
+          
         });
     });
 </script>
