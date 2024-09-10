@@ -154,7 +154,13 @@ permalink: /about/
             height: auto;
         }
 
-        
+        #background-info {
+            outline: 5px solid rgb(255, 127, 80); 
+            padding: 20px;
+            margin: 20px;
+
+            
+        }
     </style>
 </head>
 
@@ -166,16 +172,25 @@ permalink: /about/
     <div id="map-hongkong"></div>
 </div>
 
-<div>
-    <h3>I'm a 2nd gen Asian-American</h3>
-    <h3>My mom is from Taiwan and my dad is from Hong Kong</h3>
-    <h3>
-        I used to travel to Taiwan and Hong Kong every summer as a kid to visit
-        my family, eat yummy food, and visit historic spots.
-    </h3>
+<div id="background-info">
+    <h1 style="color: #FFFFFF">
+        <img src="{{site.baseurl}}/images/about/qiyuan.png" height="60" alt="">
+        My Background
+    </h1>
+    <ul>
+        <ol><h3>I'm a 2nd gen Asian-American</h3></ol>
+        <ol><h3>My mom is from Taiwan and my dad is from Hong Kong</h3></ol>
+        <ol><h3>
+            I used to travel to Taiwan and Hong Kong every summer as a kid to visit
+            my family, eat yummy food, and visit historic spots.
+        </h3></ol>
+    </ul>
     <div><h3 id="factDisplay">Click the button to see a fun fact!</h3></div>
-<button id="generateBtn" style="color: #FF7F50">Generate Fun Fact</button>
+    <button id="generateBtn" style="color: #FF7F50">Generate Fun Fact</button>
 </div>
+
+
+
 <link
     href="https://fonts.googleapis.com/css?family=Cedarville+Cursive"
     rel="stylesheet"
