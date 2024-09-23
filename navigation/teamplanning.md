@@ -4,7 +4,7 @@ title: Team Teach Planning
 permalink: /teamteachplanning/
 ---
 
-> The most important part of this manifesto is that we should ask other teams to review our app and take the constructive criticism to improve the project.
+> The most important part of this manifesto is that we should ask other teams to review our team teach and take the constructive criticism to improve the project.
 
 - Our team should feel comfortable to contribute ideas to the project in order to improve it.
 - To complete the project deadline, we should split the project up in parts and chip away at it slowly.
