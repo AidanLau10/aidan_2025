@@ -34,7 +34,7 @@ permalink: /about/
 
         body {
             margin: 0px;
-            font-family: "Cedarville Cursive", cursive;
+         
         }
 
         div#background {
