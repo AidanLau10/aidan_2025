@@ -17,7 +17,8 @@
   border-bottom: 1px solid;
   min-height: $base-font-size * 3;
   line-height: $base-font-size * 3;
-
+  background-color: #708090;
+  
   @include media-query($on-small) {
     display: flex;
   }
