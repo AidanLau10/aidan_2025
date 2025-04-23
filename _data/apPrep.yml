@@ -1,0 +1,144 @@
+Title: "AP Exam Prep"
+Description: "Organized study guide for college board AP Computer Science A exam"
+Topics:
+  - title: "FRQ"
+    image: "/apPrep/frq.png"
+    link: "/frqstrategy"
+    alt: "FRQ"
+    subtitle: "FRQ"
+    keyPoints:
+      - "Methods and Control Structures"
+      - "Classes"
+      - "Arrays/Arraylists"
+      - "2D Arrays"
+    description: |
+      Strategies for the AP CSA FRQ on the four topics: Method and Control Structures, Classes, Arrays/Arraylists, and 2D Arrays.
+  - title: "Unit 1: Primitive Types"
+    image: "/apPrep/unit1.png"
+    link: "/apprep/unit1review"
+    alt: "Primitive Types"
+    subtitle: "Fundamental Data"
+    keyPoints:
+      - "Java’s eight primitive types: byte, short, int, long, float, double, boolean, char"
+      - "Range and precision differences among numeric types"
+      - "Literal syntax including underscores, hexadecimal, and character escapes"
+      - "Implicit vs. explicit casting with potential for data loss"
+    description: |
+      Primitive types serve as the building blocks for data in Java. Coverage includes optimal selection of numeric types for memory usage and precision, boolean logic in control flow, and Unicode representation via char. Emphasis on type conversion rules to prevent unintended data truncation and hands-on practice with widening and explicit casting scenarios.
+
+  - title: "Unit 2: Using Objects"
+    image: "/apPrep/unit2.png"
+    link: "/apprep/unit2review"
+    alt: "Using Objects"
+    subtitle: "Instance vs. Class"
+    keyPoints:
+      - "Declaration and instantiation of objects using the `new` keyword"
+      - "Field and method access through dot notation"
+      - "Identification and handling of null references to avoid NullPointerException"
+      - "Distinction between static and instance members"
+    description: |
+      Object-oriented principles provide encapsulation of state and behavior. Topics include constructors, instance variables, and method invocation, with attention to null reference handling. Exploration of static methods and fields for utility functions and best practices for object creation.
+
+  - title: "Unit 3: Boolean Expressions and if Statements"
+    image: "/apPrep/unit3.png"
+    link: "/apprep/unit3review"
+    alt: "Boolean Expressions and if Statements"
+    subtitle: "Decision Making"
+    keyPoints:
+      - "Logical operators: &&, ||, ! and short-circuit evaluation"
+      - "Comparison operators for primitive and reference types"
+      - "Construction of if, if–else, and nested conditional statements"
+      - "Techniques for maintaining readability and reducing complexity"
+    description: |
+      Conditional logic enables controlled execution paths. Coverage includes combination of relational and logical operators for complex boolean expressions, leveraging short-circuit behavior, and structured implementation of if–else chains and nested conditionals for robust decision-making.
+
+  - title: "Unit 4: Iteration"
+    image: "/apPrep/unit4.png"
+    link: "/apprep/unit4review"
+    alt: "Iteration"
+    subtitle: "Repetition Constructs"
+    keyPoints:
+      - "Structure and usage of for loops with initialization, condition, and update clauses"
+      - "Comparison of while and do-while loops"
+      - "Application of loop invariants and prevention of off-by-one errors"
+      - "Nested loops and array traversal techniques"
+    description: |
+      Iteration constructs facilitate repetitive operations. Instruction covers selection of appropriate loop type, avoidance of infinite loops, and mastery of nested iterations for multi-dimensional data structures. Emphasis on common pitfalls and best practices for reliable loop implementation.
+
+  - title: "Unit 5: Writing Classes"
+    image: "/apPrep/unit5.png"
+    link: "/apprep/unit5review"
+    alt: "Writing Classes"
+    subtitle: "Design and Encapsulation"
+    keyPoints:
+      - "Class composition: fields, constructors, and methods"
+      - "Access control using public, private, and default modifiers"
+      - "Use of the `this` keyword and constructor overloading"
+      - "Design considerations for immutable versus mutable objects"
+    description: |
+      Class design underpins modular and maintainable code. Topics include encapsulation through private fields and public methods, constructor chaining, and use of `this` for disambiguation. Examination of immutability principles to enhance reliability and reduce side effects.
+
+  - title: "Unit 6: Array"
+    image: "/apPrep/unit6.png"
+    link: "/apprep/unit6review"
+    alt: "Array"
+    subtitle: "Fixed-Size Collections"
+    keyPoints:
+      - "Declaration, allocation, and initialization of one-dimensional arrays"
+      - "Index bounds and handling ArrayIndexOutOfBoundsException"
+      - "Iteration with indexed for loops and enhanced for-each loops"
+      - "Implementation of standard array algorithms: search, traversal, and computation"
+    description: |
+      Arrays offer indexed storage for a fixed number of elements. Instruction covers safe declaration, default values, and boundary checks. Practice includes writing algorithms for searching, summing, and modifying array contents using both indexed and for-each loops.
+
+  - title: "Unit 7: ArrayList"
+    image: "/apPrep/unit7.png"
+    link: "/apprep/unit7review"
+    alt: "ArrayList"
+    subtitle: "Dynamic Collections"
+    keyPoints:
+      - "Import of java.util.ArrayList and application of generics"
+      - "Core methods: add, get, set, remove, and size"
+      - "Autoboxing and unboxing of wrapper types"
+      - "Safe iteration using Iterator and ListIterator to prevent ConcurrentModificationException"
+    description: |
+      Dynamic collection management via ArrayList supports flexible resizing. Coverage includes generic type usage, essential list operations, and autoboxing mechanics. Emphasis on safe iteration patterns and concurrent modification avoidance through proper use of iterators.
+
+  - title: "Unit 8: 2D Array"
+    image: "/apPrep/unit8.png"
+    link: "/apprep/unit8review"
+    alt: "2D Array"
+    subtitle: "Grid Data Structures"
+    keyPoints:
+      - "Declaration and allocation of two-dimensional arrays"
+      - "Row-major order concepts and jagged array structures"
+      - "Nested loop strategies for traversal and manipulation"
+      - "Practical applications: matrices, game boards, and tabular data"
+    description: |
+      Two-dimensional arrays enable representation of grid-like data. Instruction includes creation of rectangular and jagged arrays, nested traversal techniques, and manipulation patterns. Real-world use cases such as matrix operations and game board implementations are examined.
+
+  - title: "Unit 9: Inheritance"
+    image: "/apPrep/unit9.png"
+    link: "/apprep/unit9review"
+    alt: "Inheritance"
+    subtitle: "IS-A Relationships"
+    keyPoints:
+      - "Use of the extends keyword for subclass-superclass relationships"
+      - "Method overriding versus overloading distinctions"
+      - "Application of super keyword for constructor chaining and method access"
+      - "Polymorphism and runtime dynamic binding principles"
+    description: |
+      Inheritance supports code reuse through hierarchical class relationships. Coverage includes method overriding for behavior specialization, constructor invocation via super, and polymorphic method dispatch. Discussion of upcasting, downcasting, and best practices for safe type conversions.
+
+  - title: "Unit 10: Recursion"
+    image: "/apPrep/unit10.png"
+    link: "/apprep/unit10review"
+    alt: "Recursion"
+    subtitle: "Divide and Conquer"
+    keyPoints:
+      - "Structure of base case and recursive case"
+      - "Function call stack and recursion depth considerations"
+      - "Classic examples: factorial, Fibonacci sequence, and recursive array processing"
+      - "Transformation between loops and recursive solutions"
+    description: |
+      Recursive approaches solve problems by breaking them into smaller instances. Instruction covers clear definition of base and recursive cases to prevent stack overflow. Analysis of classic recursion patterns and practice tracing recursion trees for output prediction.
