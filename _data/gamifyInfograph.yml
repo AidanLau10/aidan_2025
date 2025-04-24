@@ -1,0 +1,57 @@
+Title: "Gamify Documentation"
+Description: "Documentation of gamify all in one place"
+Topics:
+  - title: "Fortune Finders"
+    image: "/gamify/fortuneFinders.png"
+    link: "/documentation/fortuneFinders"
+    alt: "Fortune Finders"
+    subtitle: "Fortune Finders"
+    keyPoints:
+      - Interactive RPG Game
+    description: |
+      Answer all the questions to earn balance and access Wallstreet!
+  - title: "Casino"
+    image: "/gamify/fortuneFinders.png"
+    link: "/documentation/fortuneFinders"
+    alt: "Fortune Finders"
+    subtitle: "Fortune Finders"
+    keyPoints:
+      - Interactive RPG Game
+    description: |
+      Answer all the questions to earn balance and access Wallstreet!
+  - title: "Stocks"
+    image: "/gamify/fortuneFinders.png"
+    link: "/documentation/fortuneFinders"
+    alt: "Fortune Finders"
+    subtitle: "Fortune Finders"
+    keyPoints:
+      - Interactive RPG Game
+    description: |
+      Answer all the questions to earn balance and access Wallstreet!
+  - title: "Media Bias Game"
+    image: "/gamify/fortuneFinders.png"
+    link: "/documentation/fortuneFinders"
+    alt: "Fortune Finders"
+    subtitle: "Fortune Finders"
+    keyPoints:
+      - Interactive RPG Game
+    description: |
+      Answer all the questions to earn balance and access Wallstreet!
+  - title: "Crypto"
+    image: "/gamify/fortuneFinders.png"
+    link: "/documentation/fortuneFinders"
+    alt: "Fortune Finders"
+    subtitle: "Fortune Finders"
+    keyPoints:
+      - Interactive RPG Game
+    description: |
+      Answer all the questions to earn balance and access Wallstreet!
+  - title: "AI Facial Recognition"
+    image: "/gamify/fortuneFinders.png"
+    link: "/documentation/fortuneFinders"
+    alt: "Fortune Finders"
+    subtitle: "Fortune Finders"
+    keyPoints:
+      - Interactive RPG Game
+    description: |
+      Answer all the questions to earn balance and access Wallstreet!
