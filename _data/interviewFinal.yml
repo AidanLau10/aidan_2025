@@ -1,0 +1,24 @@
+Topics:
+  - title: "Agile Developer Certificate"
+    image: "/final/agiledev.png"
+    link: "/final/agiledev"
+    alt: "agiledev"
+    subtitle: "Agile Developer"
+    keyPoints:
+    description: |
+      Implement an agile development cycle into project for constant iteration and improvement.
+  - title: "Object Oriented Design"
+    image: "/final/oop.png"
+    link: "/final/oop"
+    alt: "Object Oriented"
+    subtitle: "Objected Oriented"
+    keyPoints:
+    description: |
+      Object-oriented design allows for not only code readability, but also reusability for developers to easily code
+  - title: "Future Focused Developer NFT"
+    image: "/final/futureNFT.png"
+    link: "/final/futureNFT"
+    alt: "Future Focused NFT"
+    subtitle: "Future Focused"
+    description: |
+      Focused on making sure next developers who access the project can continue to iterate and develop
